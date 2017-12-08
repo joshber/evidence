@@ -1,0 +1,187 @@
+@import url('/ui/normalize.css');
+
+/*
+ * Typography
+ */
+
+@font-face {
+	font-family: Rubrik;
+	font-style: normal;
+	font-weight: normal;/*300*/
+	src:
+		url('/ui/woff/Rubrik/RubrikNew-Regular.woff2') format('woff2'),
+		url('/ui/woff/Rubrik/RubrikNew-Regular.woff') format('woff');
+}
+@font-face {
+	font-family: Rubrik;
+	font-style: italic;
+	font-weight: normal;/*300*/
+	src:
+		url('/ui/woff/Rubrik/RubrikNew-RegularItalic.woff2') format('woff2'),
+		url('/ui/woff/Rubrik/RubrikNew-RegularItalic.woff') format('woff');
+}
+@font-face {
+	font-family: Rubrik;
+	font-style: normal;
+	font-weight: bold;/*700*/
+	src:
+		url('/ui/woff/Rubrik/RubrikNew-Bold.woff2') format('woff2'),
+		url('/ui/woff/Rubrik/RubrikNew-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: Output;
+	font-style: normal;
+	font-weight: normal;
+	src:
+		url('/ui/woff/Output/OutputSans-Regular.woff2') format('woff2');
+}
+@font-face {
+	font-family: Output;
+	font-style: italic;
+	font-weight: normal;
+	src:
+		url('/ui/woff/Output/OutputSans-Italic.woff2') format('woff2');
+}
+@font-face {
+	font-family: Output;
+	font-style: normal;
+	font-weight: bold;
+	src:
+		url('/ui/woff/Output/OutputSans-Bold.woff2') format('woff2');
+}
+
+body {
+	font-family: "Output", "Rubrik", sans-serif;
+	font-size: 20px;
+	line-height: 36px;
+	font-feature-settings: "liga";
+	color: #000;
+	background: #fff;
+
+	/* Stops Mobile Safari from auto-adjusting font-sizes */
+	-webkit-text-size-adjust: 100%;
+
+	/* improves the text rendering in more recents browsers */
+	text-rendering: optimizeLegibility;
+
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+}
+
+em {
+	font-style: italic;
+	font-weight: normal;
+}
+strong {
+  font-weight: bold;
+}
+del {
+	display: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  box-shadow: inset 0 -1px 0 0 rgba( 0, 0, 0, .5 );
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .no a {
+	text-decoration: none;
+	box-shadow: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+h1 {
+	font-size: 150%;
+	margin: 0;
+	padding: 1em 0 .4em 0;
+	text-align: center;
+}
+h2 {
+	font-size: 110%;
+	margin: 1em 0 0 0;
+}
+h3 {
+  font-size: 100%;
+	margin: 1em 0 0 0;
+}
+h4 {
+  font-size: 100%;
+	margin: .8em 0 0 0;
+}
+
+/* For page lede */
+h5 {
+	font-size: 100%;
+	font-weight: normal;
+	margin: .8em 0 0 0;
+}
+
+/* For nav/chrome */
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+	text-align: center;
+	margin: 0;
+}
+
+/*
+ * Structure
+ */
+
+body {
+  position: relative;
+  padding: 0 10px 10px 10px;
+}
+
+#content {
+  max-width: 580px;/*1170px;*/
+  margin: 0 auto;
+}
+article {
+  margin: 0 0 1em 0;
+}
+article * {
+  max-width: 100%;
+}
+
+p {
+  text-align: left;
+  margin: .8em 0 0 0;
+}
+
+img {
+  display: block;
+  margin: 1.8em 0 0 0;
+  width: auto;
+  max-width: 100%;
+}
+
+.indent {
+  margin: 0 1em 0 1em;
+}
+.meta {
+  color: #777;
+  font-size: 70%;
+  text-transform: uppercase;
+}
+
+ul, ol {
+  font-size: 100%;
+}
+ul.inline {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul.inline li {
+  display: inline;
+  margin: 0 1em 0 0;
+}
