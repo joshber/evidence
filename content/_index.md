@@ -3,23 +3,21 @@ title: "Home"
 author: Josh
 ---
 
-# Evidence is a research studio.
+<header>
+<div>Evidence</div>
+<div class="nav"><a href="mailto:contact@evdnce.studio">contact@evdnce.studio</a></div>
+</header>
 
-(contact link at the top — maybe fixed position? — show the address, no icon?)
+<p class="fadein delay0">Evidence is a research studio.</p>
 
-We help organizations integrate rigorous research into their own culture.
+<p class="fadein delay1">We design new ways of observing human behavior in the wild.</p>
 
-We provide research strategy, with an emphasis on problems stemming from value conflicts under social acceleration.
+<p class="fadein delay2">Our work addresses the most pressing concerns of the day, things like meat consumption, Native sovereignty, and mood disorders.</p>
 
-We design new ways of observing human behavior in the wild.
+<p class="fadein delay3">We help organizations of all shapes and sizes integrate rigorous research into their own culture.</p>
 
-We stage seminars and retreats for individuals looking to become more rigorous in their creative lives.
+~~FIXME BRIDGE THE GAP BTW RIGOROUS RESEARCH AND DESIGN?~~
 
-We design residencies for social scientists, writers, artists, and others with a research-centered creative practice.
+<p class="fadein delay4">Evidence was founded in 2017 by anthropologist and knowledge scientist Josh Berson.</p>
 
-And — soon — we’ll publish books: the most thoughtful and unexpected works of research writing appearing anywhere in the world today.
-
-Evidence was founded in 2017 by anthropologist and knowledge scientist Josh Berson.
-We are based in Berlin with global remit.
-
-TK: German legal notice
+<p class="fadein delay5">We are based in Berlin with global remit.</p>
