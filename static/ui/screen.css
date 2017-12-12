@@ -21,8 +21,8 @@
 
 body {
 	font-family: "Soleil", "Copy", "Output", sans-serif;
-	font-weight: 100;
-	font-size: 18px; /* Mobile-first */
+	font-weight: lighter;
+	font-size: 19px; /* Mobile-first */
 	line-height: 1.5em;
 	font-feature-settings: "liga";
 	color: #c9c9c9;
@@ -156,7 +156,7 @@ article * {
 
 p {
   text-align: left;
-  margin: .6em 0 0 0;
+  margin: .8em 0 0 0;
 }
 
 img {
