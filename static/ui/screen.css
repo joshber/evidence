@@ -4,14 +4,14 @@
  * Typography
  */
 
-/*@font-face {
+@font-face {
 	font-family: "Output";
 	font-style: normal;
 	font-weight: normal;
 	src:
 		url('/ui/fonts/Output/OutputSans-Light.woff2') format('woff2');
 }
-@font-face {
+/*@font-face {
 	font-family: "Copy";
 	font-style: normal;
 	font-weight: normal;
@@ -20,7 +20,7 @@
 }*/
 
 body {
-	font-family: "Soleil", "Copy", "Output", sans-serif;
+	font-family: "Output", "Soleil", "Copy", "Output", sans-serif;
 	font-weight: lighter;
 	font-size: 19px; /* Mobile-first */
 	line-height: 1.5em;
