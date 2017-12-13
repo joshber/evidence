@@ -4,23 +4,8 @@
  * Typography
  */
 
-@font-face {
-	font-family: "Output";
-	font-style: normal;
-	font-weight: normal;
-	src:
-		url('/ui/fonts/Output/OutputSans-ExtraLight.woff2') format('woff2');
-}
-@font-face {
-	font-family: "Copy";
-	font-style: normal;
-	font-weight: normal;
-	src:
-		url('/ui/fonts/Copy/CopyTrial-Thin.WOFF') format('woff');
-}
-
 body {
-	font-family: "Soleil", "Copy", "Output", sans-serif;
+	font-family: "Arbutus Slab", "Avenir Next", "Avenir", sans-serif;
 	font-weight: lighter;
 	font-size: 19px; /* Mobile-first */
 	line-height: 1.5em;
@@ -47,11 +32,11 @@ body {
 }
 
 em {
-	font-style: italic;
+	font-style: normal;
 	font-weight: normal;
 }
 strong {
-  font-weight: bold;
+  font-weight: normal;
 }
 del {
 	display: none;
