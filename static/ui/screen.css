@@ -11,16 +11,16 @@
 	src:
 		url('/ui/fonts/Output/OutputSans-ExtraLight.woff2') format('woff2');
 }
-/*@font-face {
+@font-face {
 	font-family: "Copy";
 	font-style: normal;
 	font-weight: normal;
 	src:
 		url('/ui/fonts/Copy/CopyTrial-Thin.WOFF') format('woff');
-}*/
+}
 
 body {
-	font-family: "Output", "Soleil", "Copy", "Output", sans-serif;
+	font-family: "Soleil", "Copy", "Output", sans-serif;
 	font-weight: lighter;
 	font-size: 19px; /* Mobile-first */
 	line-height: 1.5em;
