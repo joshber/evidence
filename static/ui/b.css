@@ -37,7 +37,9 @@ em {
 }
 strong {
   font-weight: normal;
-	color: #e00;
+	/*color: #e00;*/
+	text-transform: uppercase;
+	letter-spacing: .035em;
 }
 del {
 	display: none;
