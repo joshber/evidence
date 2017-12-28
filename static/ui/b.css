@@ -36,10 +36,10 @@ em {
 	font-weight: normal;
 }
 strong {
-  font-weight: normal;
-	/*color: #e00;*/
+  font-weight: bold;
+	/*color: #e00;
 	text-transform: uppercase;
-	letter-spacing: .035em;
+	letter-spacing: .035em;*/
 }
 del {
 	display: none;
