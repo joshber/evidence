@@ -5,7 +5,7 @@
  */
 
 body {
-	font-family: "Work Sans", sans-serif;
+	font-family: "Arbutus Slab", sans-serif;
 	font-weight: lighter;
 	font-size: 19px; /* Mobile-first */
 	line-height: 1.5em;
@@ -36,9 +36,8 @@ em {
 	font-weight: normal;
 }
 strong {
-  font-weight: bold;
-	/*color: #e00;
-	text-transform: uppercase;
+  font-weight: normal;
+	/*text-transform: uppercase;
 	letter-spacing: .035em;*/
 }
 del {
