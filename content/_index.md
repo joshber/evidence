@@ -7,7 +7,7 @@ author: Josh
 <a href="mailto:contact@evdnce.studio">contact@evdnce.studio</a>
 </div>
 
-<p class="fadein"><strong>Evidence</strong> is a research studio.</p>
+<p class="fadein">Evidence is a research studio.</p>
 
 <p class="fadein delay1">We design new ways of observing human behavior in the wild.</p>
 
