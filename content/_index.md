@@ -11,7 +11,7 @@ author: Josh
 
 <p class="fadein delay1">We design new ways of observing human behavior in the wild.</p>
 
-<p class="fadein delay2">We help organizations of all shapes and sizes integrate rigorous research into their own culture.</p>
+<p class="fadein delay2">We help organizations of all stripes integrate rigorous research into their own culture.</p>
 
 <p class="fadein delay3">We conduct self-initiated research on themes ranging from the economics of meat-eating to <a href="http://goo.gl/Qn2HTI">the environmental determinants of mental health</a>.</p>
 
