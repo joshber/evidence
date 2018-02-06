@@ -1,12 +1,22 @@
-@import url('/ui/normalize.css');
+@import url("/ui/normalize.css");
 
 /*
  * Typography
  */
 
+@font-face {
+	font-family: Miki;
+	font-weight: normal;
+	src: url("/ui/type/KontrapunktMiki-Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: Miki;
+	font-weight: bold;
+	src: url("/ui/type/KontrapunktMiki-Bold.otf") format("opentype");
+}
+
 body {
-	font-family: "Arbutus Slab", sans-serif;
-	font-weight: lighter;
+	font-family: "Miki", sans-serif;
 	font-size: 19px; /* Mobile-first */
 	line-height: 1.5em;
 	font-feature-settings: "liga";
@@ -31,15 +41,6 @@ body {
 	}
 }
 
-em {
-	font-style: normal;
-	font-weight: normal;
-}
-strong {
-  font-weight: normal;
-	/*text-transform: uppercase;
-	letter-spacing: .035em;*/
-}
 del {
 	display: none;
 }

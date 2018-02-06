@@ -7,7 +7,23 @@ author: Josh
 <a href="mailto:contact@evdnce.studio">contact@evdnce.studio</a>
 </div>
 
-<p class="fadein">Evidence is a research studio.</p>
+<!--
+**Evidence** is a research studio.
+
+We observe human behavior in the wild to anticipate what comes next.
+
+Our core expertise lies in health and well-being, food, mobility, education, and financial behavior.
+But the best briefs are those we never saw coming.
+
+DRAMATURGY
+
+Evidence was founded in 2017 by anthropologist and knowledge scientist Josh Berson.
+
+We are based in Berlin with global remit.
+
+We solve problems XYZ human behavior
+-->
+<p class="fadein"><strong>Evidence</strong> is a research studio.</p>
 
 <p class="fadein delay1">We design new ways of observing human behavior in the wild.</p>
 
