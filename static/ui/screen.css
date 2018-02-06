@@ -5,21 +5,25 @@
  */
 
 @font-face {
-	font-family: Miki;
+	font-family: "Miki";
 	font-weight: normal;
 	src: url("/ui/type/KontrapunktMiki-Regular.otf") format("opentype");
 }
 @font-face {
-	font-family: Miki;
+	font-family: "Miki";
 	font-weight: bold;
 	src: url("/ui/type/KontrapunktMiki-Bold.otf") format("opentype");
 }
 
 body {
 	font-family: "Miki", sans-serif;
+
 	font-size: 19px; /* Mobile-first */
 	line-height: 1.5em;
-	font-feature-settings: "liga";
+
+	font-feature-settings: "liga" 1;
+	font-feature-settings: "onum" 1;
+
 	color: #000;/*#c9c9c9;*/
 	background: #fff;/*#10131f;*/
 
@@ -68,10 +72,9 @@ a {
 .header a {
 	box-shadow: none;
 }
-.header a:hover {
+/*.header a:hover {
 	box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, .67);
-	/*box-shadow: inset 0 -.04em 0 0 #e00;*/
-}
+}*/
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	text-decoration: none;
