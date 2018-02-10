@@ -5,7 +5,7 @@ author: Josh
 
 <header>
 <div class="branding">Evidence</div>
-<nav><a href="mailto:contact@evdnce.studio">contact@evdnce.studio</a></nav>
+<div class="nav"><a href="mailto:contact@evdnce.studio">contact@evdnce.studio</a></div>
 </header>
 
 <p class="fadein">Evidence is a research studio.</p>
@@ -18,6 +18,8 @@ in an open-ended way that leaves room for chance.</p>
 <p class="fadein delay3">Our core expertise lies in health and well-being, food, mobility, education, and financial behavior.
 But the best briefs are those we never saw coming.</p>
 
-<p class="fadein delay4">Evidence was founded in 2017 by anthropologist and knowledge scientist Josh Berson.</p>
+<p class="fadein delay4">Evidence was founded in 2017 by anthropologist and epistemologist Josh Berson.</p>
+<!--p class="fadein delay4">Evidence was founded in 2017 by anthropologist and epistemologist <a href="/jb/">Josh Berson</a>.</p-->
 
 <p class="fadein delay5">We are based in Berlin with global remit.</p>
+<!--p class="fadein delay5">We operate with global remit.</p-->
