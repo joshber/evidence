@@ -3,9 +3,10 @@ title: "Home"
 author: Josh
 ---
 
-<div class="header">
-<a href="mailto:contact@evdnce.studio">contact@evdnce.studio</a>
-</div>
+<header>
+<div class="branding">Evidence</div>
+<nav><a href="mailto:contact@evdnce.studio">contact@evdnce.studio</a></nav>
+</header>
 
 <p class="fadein">Evidence is a research studio.</p>
 

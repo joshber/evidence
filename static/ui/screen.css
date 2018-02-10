@@ -14,6 +14,11 @@
 	font-weight: bold;
 	src: url("/ui/type/KontrapunktMiki-Bold.otf") format("opentype");
 }
+@font-face {
+	font-family: "Miki";
+	font-weight: 900;
+	src: url("/ui/type/KontrapunktMiki-ExtraBold.otf") format("opentype");
+}
 
 body {
 	font-family: "Miki", sans-serif;
@@ -55,21 +60,23 @@ a {
   box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, .67);
 }
 
-.header {
-	text-align: right;
-	/*position: absolute;
-	right: .5em;
-	top: .5em;*/
-	padding: 0;
-	margin: 0;/*0 0 1em 0;*/
+header {
+	padding: 0 0 1.6em 0;
+	margin: 0;
 	font-size: 60%;
 	line-height: 1.5em;
-	font-weight: normal;
-	text-transform: none;
-	letter-spacing: 0;
 }
-.header a {
+header a {
 	box-shadow: none;
+}
+header .branding {
+	display: inline-block;
+	float: left;
+	font-weight: 900;
+}
+header nav {
+	display: inline-block;
+	float: right;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -83,7 +90,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 body {
   position: relative;
-  margin: .5em;
+  margin: .8em;
 }
 
 #content {
