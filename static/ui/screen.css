@@ -75,10 +75,6 @@ header .branding {
 	float: left;
 	font-weight: 900;
 }
-header nav {
-	display: inline-block;
-	float: right;
-}
 header .nav {
 	display: inline-block;
 	float: right;
