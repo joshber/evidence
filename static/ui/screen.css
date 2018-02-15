@@ -111,19 +111,14 @@ p {
 }
 
 img {
-  display: block;
-  margin: 1.8em 0 0 0;
+  display: inline-block;
+  margin: .8em 0 0 0;
   width: auto;
   max-width: 100%;
 }
 
 .indent {
   margin: 0 1em 0 1em;
-}
-.meta {
-  color: #777;
-  font-size: 70%;
-  text-transform: uppercase;
 }
 
 ul, ol {
