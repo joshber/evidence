@@ -20,5 +20,4 @@ But the best briefs are those we never saw coming.</p>
 
 <p class="fadein delay4">Evidence was founded in 2017 by anthropologist Josh Berson.</p>
 
-<p class="fadein delay5">We are based in Berlin with global remit.</p>
-<!--p class="fadein delay5">We operate with global remit.</p-->
+<p class="fadein delay5">We operate with global remit.</p>
