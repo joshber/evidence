@@ -3,7 +3,7 @@ title: "Home"
 author: Josh
 ---
 
-<header>
+<header class="fadein">
 <div class="branding">Evidence</div>
 <div class="nav"><a href="mailto:contact@evdnce.studio">contact@evdnce.studio</a></div>
 </header>
